@@ -35,7 +35,7 @@ User с ролями# 📋 Задачи разработки для RegionShop
 
 | № | Задача | Файлы | Описание | Статус |
 |---|--------|-------|----------|---------|
-| 2.1 | Модель User и ClientProfile | `backend/accounts/models.py` | Создать кастомную модель User с полями: phone, company, inn, onec_ref_key | ⬜ |
+| 2.1 | Модель User и ClientProfile | `backend/accounts/models.py` | Создать кастомную модель User с полями: phone, company, inn, onec_ref_key | ✅ |
 | 2.2 | Модели каталога | `backend/catalog/models.py` | Product, Category, Price, Stock модели с синхронизацией 1С | ⬜ |
 | 2.3 | Модели заказов | `backend/orders/models.py` | Order, OrderItem, Cart, CartItem модели | ⬜ |
 | 2.4 | Миграции базы данных | - | Выполнить `python manage.py makemigrations` и `migrate` | ⬜ |
