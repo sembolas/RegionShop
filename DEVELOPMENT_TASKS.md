@@ -1,4 +1,4 @@
-# 📋 Задачи разработки для RegionShop
+User с ролями# 📋 Задачи разработки для RegionShop
 
 Этот документ содержит пошаговый план разработки проекта RegionShop. Задачи сгруппированы по этапам и приоритетам.
 
@@ -14,20 +14,20 @@
 
 | № | Задача | Файлы | Описание | Статус |
 |---|--------|-------|----------|---------|
-| 1.1 | Настройка переменных окружения | `.env` | Создать `.env` из `.env.example` и заполнить: SECRET_KEY, DEBUG, DATABASE_URL, ALLOWED_HOSTS | ⬜ |
-| 1.2 | Настройка backend зависимостей | `backend/requirements.txt` | Заполнить зависимости: Django, DRF, psycopg2, djangorestframework-simplejwt, celery, redis | ⬜ |
-| 1.3 | Настройка frontend зависимостей | `frontend/package.json` | Заполнить зависимости: React, React Router, Axios, Zustand, Vite | ⬜ |
-| 1.4 | Базовая конфигурация Django | `backend/config/settings.py` | Настроить базовые настройки Django, подключить БД, CORS, JWT | ⬜ |
-| 1.5 | Настройка Docker для разработки | `docker-compose.override.yml` | Добавить volumes для hot-reload разработки | ⬜ |
+| 1.1 | Настройка переменных окружения | `.env` | Создать `.env` из `.env.example` и заполнить: SECRET_KEY, DEBUG, DATABASE_URL, ALLOWED_HOSTS | ✅ |
+| 1.2 | Настройка backend зависимостей | `backend/requirements.txt` | Заполнить зависимости: Django, DRF, psycopg2, djangorestframework-simplejwt, celery, redis | ✅ |
+| 1.3 | Настройка frontend зависимостей | `frontend/package.json` | Заполнить зависимости: React, React Router, Axios, Zustand, Vite | ✅ |
+| 1.4 | Базовая конфигурация Django | `backend/config/settings.py` | Настроить базовые настройки Django, подключить БД, CORS, JWT | ✅ |
+| 1.5 | Настройка Docker для разработки | `docker-compose.override.yml` | Добавить volumes для hot-reload разработки | ✅ |
 
 ### 🟡 Средний приоритет
 
 | № | Задача | Файлы | Описание | Статус |
 |---|--------|-------|----------|---------|
-| 1.6 | Настройка .gitignore | `.gitignore` | Добавить правила для Python, Node.js, Docker, IDE файлов | ⬜ |
-| 1.7 | Настройка редактора | `.editorconfig`, `.prettierrc` | Добавить правила форматирования кода | ⬜ |
-| 1.8 | Dockerfile для backend | `backend/Dockerfile` | Написать многоэтапную сборку для Python | ⬜ |
-| 1.9 | Dockerfile для frontend | `frontend/Dockerfile` | Написать сборку для React с Nginx | ⬜ |
+| 1.6 | Настройка .gitignore | `.gitignore` | Добавить правила для Python, Node.js, Docker, IDE файлов | ✅ |
+| 1.7 | Настройка редактора | `.editorconfig`, `.prettierrc` | Добавить правила форматирования кода | ✅ |
+| 1.8 | Dockerfile для backend | `backend/Dockerfile` | Написать многоэтапную сборку для Python | ✅ |
+| 1.9 | Dockerfile для frontend | `frontend/Dockerfile` | Написать сборку для React с Nginx | ✅ |
 
 ## 🐍 Этап 2: Backend - База данных и модели
 
