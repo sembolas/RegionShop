@@ -179,7 +179,7 @@ class StockAdmin(admin.ModelAdmin):
     """Админка для остатков"""
     
     list_display = ['product', 'warehouse', 'quantity', 'reserved_quantity', 'available_quantity', 'is_low_stock', 'is_active', 'last_updated']
-    list_filter = ['warehouse', 'is_active', 'is_low_stock', 'last_updated']
+    list_filter = ['warehouse', 'is_active', 'last_updated']
     search_fields = ['product__name', 'product__article', 'warehouse']
     readonly_fields = ['available_quantity', 'is_low_stock', 'last_updated', 'created_at', 'onec_synced_at']
     raw_id_fields = ['product']
